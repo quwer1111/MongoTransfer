@@ -1,0 +1,18 @@
+server:
+  context-path: /bi-message-svc/v1
+  port: 8080
+  error.whitelabel.enabled: false
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://
+      collection-name: 
+  datasource:
+      url: 
+      driver-class-name:
+      username: 
+      password: 
+      platform: mysql
+      separator: ;
+
